@@ -53,6 +53,9 @@ body {
   margin-bottom: 40px;
   font-weight: 400;
 }
+p{
+max-width:333px;
+}
 
 .grid-cont {
   display: grid;
@@ -184,6 +187,10 @@ footer span {
     margin-bottom: 0%;
     /* margin-right: 215px; */
   }
+  
+p{
+max-width:430px;
+}
   .grid-cont {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 92px;
